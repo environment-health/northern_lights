@@ -1,0 +1,12 @@
+data_workflow:
+  parameters: 
+    crs: 4326
+    bbox:
+      xmin: -142
+      ymin: 40
+      xmax: -50
+      ymax: 85
+  data_pipelines:
+    - "8509eeb1" # Nighttime Ligths
+  integration_pipelines:
+    - "aba5e90a" # Nighttime Ligths
