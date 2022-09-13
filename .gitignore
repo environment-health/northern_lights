@@ -43,3 +43,4 @@ raw/
 *.geojson
 *.tif
 *.csv
+.DS_Store

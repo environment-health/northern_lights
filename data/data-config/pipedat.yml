@@ -6,7 +6,7 @@ data_workflow:
       ymin: 40
       xmax: -50
       ymax: 85
-  data_pipelines:
+  data_pipeline:
     - "8509eeb1" # Nighttime Ligths
-  integration_pipelines:
+  data_integration:
     - "aba5e90a" # Nighttime Ligths

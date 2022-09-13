@@ -1,0 +1,79 @@
+pipeline:
+  pipeline_id: aba5e90a
+  pipeline_type: integration
+  creators:
+  - contact_id: 1
+    first_name: David
+    last_name: Beauchesne
+    organization: Universite Laval
+    department: Department of Biology
+    role: Postdoctoral researcher
+    email: david.beauchesne@hotmail.com
+    phone: 1-514-553-4974
+  date_created: '2022-05-17'
+  url: https://github.com/Ecosystem-Assessments/pipedat/blob/main/R/dp_night_lights-aba5e90a.R
+description:
+  name: Night lights
+  description: Assessment of the intensity of lights at night in coastal areas between
+    2012 and 2021
+  access_date: '2022-09-13'
+  citekey: []
+  integration_data: 8509eeb1
+  grid:
+    type: raster
+    crs: 4326
+    resolution:
+      x:
+        from: 1.0
+        to: 894.0
+        offset: -141.5030365
+        delta: 0.1
+        refsys:
+          input: WGS 84
+          wkt: |-
+            GEOGCRS["WGS 84",
+                DATUM["World Geodetic System 1984",
+                    ELLIPSOID["WGS 84",6378137,298.257223563,
+                        LENGTHUNIT["metre",1]]],
+                PRIMEM["Greenwich",0,
+                    ANGLEUNIT["degree",0.0174532925199433]],
+                CS[ellipsoidal,2],
+                    AXIS["geodetic latitude (Lat)",north,
+                        ORDER[1],
+                        ANGLEUNIT["degree",0.0174532925199433]],
+                    AXIS["geodetic longitude (Lon)",east,
+                        ORDER[2],
+                        ANGLEUNIT["degree",0.0174532925199433]],
+                ID["EPSG",4326]]
+        point: no
+        values: ~
+      'y':
+        from: 1.0
+        to: 425.0
+        offset: 83.6769261
+        delta: -0.1
+        refsys:
+          input: WGS 84
+          wkt: |-
+            GEOGCRS["WGS 84",
+                DATUM["World Geodetic System 1984",
+                    ELLIPSOID["WGS 84",6378137,298.257223563,
+                        LENGTHUNIT["metre",1]]],
+                PRIMEM["Greenwich",0,
+                    ANGLEUNIT["degree",0.0174532925199433]],
+                CS[ellipsoidal,2],
+                    AXIS["geodetic latitude (Lat)",north,
+                        ORDER[1],
+                        ANGLEUNIT["degree",0.0174532925199433]],
+                    AXIS["geodetic longitude (Lon)",east,
+                        ORDER[2],
+                        ANGLEUNIT["degree",0.0174532925199433]],
+                ID["EPSG",4326]]
+        point: no
+        values: ~
+    bbox:
+    - -141.5030365
+    - 41.1769261
+    - -52.1030365
+    - 83.6769261
+    ncells: 894
