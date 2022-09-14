@@ -16,7 +16,7 @@ description:
   name: Night lights
   description: Assessment of the intensity of lights at night in coastal areas between
     2012 and 2021
-  access_date: '2022-09-13'
+  access_date: '2022-09-14'
   citekey: []
   integration_data: 8509eeb1
   grid:
@@ -25,8 +25,8 @@ description:
     resolution:
       x:
         from: 1.0
-        to: 894.0
-        offset: -141.5030365
+        to: 885.0
+        offset: -141.1030365
         delta: 0.1
         refsys:
           input: WGS 84
@@ -49,8 +49,8 @@ description:
         values: ~
       'y':
         from: 1.0
-        to: 425.0
-        offset: 83.6769261
+        to: 336.0
+        offset: 75.0769261
         delta: -0.1
         refsys:
           input: WGS 84
@@ -72,8 +72,8 @@ description:
         point: no
         values: ~
     bbox:
-    - -141.5030365
-    - 41.1769261
-    - -52.1030365
-    - 83.6769261
-    ncells: 894
+    - -141.1030365
+    - 41.4769261
+    - -52.6030365
+    - 75.0769261
+    ncells: 885

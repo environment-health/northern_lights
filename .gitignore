@@ -44,3 +44,4 @@ raw/
 *.tif
 *.csv
 .DS_Store
+figures/figures-integrated
