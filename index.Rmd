@@ -1,0 +1,25 @@
+---
+title: "First Nations & Inuit Communities Locations"
+output:
+  html_document:
+    toc: false
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+
+```{r, echo = FALSE, warnings = FALSE, message = FALSE, fig.width = 14, fig.height = 7}
+dat <- pipedat::importdat(c("ce594316","621e9a76"))
+
+# Mapview
+mv <- mapview(dat[[1]], col.regions = "#20422f") +
+      mapview(dat[[2]], col.regions = "#2d6b93")
+
+mv
+```
