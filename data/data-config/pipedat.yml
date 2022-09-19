@@ -10,5 +10,6 @@ data_workflow:
     - "8509eeb1" # Nighttime Ligths
     - "ce594316" # First Nations Location
     - "621e9a76" # Inuit Communities Location
+    - "b5433840" # Geolocated placenames in Canada
   data_integration:
-    - "aba5e90a" # Nighttime Ligths
+    # - "aba5e90a" # Nighttime Ligths

@@ -15,11 +15,15 @@ output:
 
 
 ```{r, echo = FALSE, warnings = FALSE, message = FALSE, fig.width = 14, fig.height = 7}
-dat <- pipedat::importdat(c("ce594316","621e9a76"))
+library(mapview)
+mapviewOptions(fgb = FALSE)
+dat <- pipedat::importdat(c("ce594316","621e9a76","b5433840"))
 
 # Mapview
-mv <- mapview(dat[[1]], col.regions = "#20422f") +
-      mapview(dat[[2]], col.regions = "#2d6b93")
+mv <- mapview(dat[[1]], col.regions = "#20422f", layer.name = "First Nations") +
+      mapview(dat[[2]], col.regions = "#2d6b93", layer.name = "Inuit Communities") +
+      mapview(dat[[3]], col.regions = "#735f22", layer.name = "Geolocated placenames")
+      
 
 mv
 ```
